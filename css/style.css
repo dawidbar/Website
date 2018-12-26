@@ -7,3 +7,5 @@
 .jumbotron .btnjumb { font-size: 18px; font-family: "Montserrat"; color: white; font-weight: bold; text-transform: uppercase; padding: 20px 25px; margin-top: 20px; }
 
 .jumbotron .overlay { background-color: rgba(0, 0, 0, 0.5); }
+
+.navbar .navbar-brand, .navbar .nav > li > a { font-size: 14px; font-family: "Montserrat"; color: white; text-transform: uppercase; }
