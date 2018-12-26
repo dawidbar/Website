@@ -1,0 +1,35 @@
+.jumbotron {
+    background-image:linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../../images/jumbotron.png);
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    .welcome {
+        font-size: 40px;
+        font-family: "Droid Serif";
+        color: rgb(255, 255, 255);
+        text-align: center;
+    }
+    .seey {
+        font-size: 75px;
+        font-family: "Montserrat";
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    .btnjumb {
+        font-size: 18px;
+        font-family: "Montserrat";
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        text-transform: uppercase;
+        padding: 20px 25px;
+        margin-top: 20px;
+    }
+    .overlay {
+        background-color: rgba(0,0,0,0.5);
+    }
+}
+
+  
