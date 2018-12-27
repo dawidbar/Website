@@ -39,7 +39,7 @@
     text-transform: uppercase;
   }
   .nav>li>a {
-      @extend .navbar-brand
+      @extend .navbar-brand;
   }
 }
 .services {
@@ -60,7 +60,7 @@
         color: rgb(119, 119, 119);
         font-style: italic;
         text-align: center;
-        padding-bottom: 60px;
+        padding-bottom: 100px;
     }
     i {
         color: #f0ad4e;
@@ -77,4 +77,35 @@
       }
       
 }
- 
+.portfolio {
+    @extend .services;
+    background-color: #F7F7F7;
+    margin-top: 100px;
+    h2 {
+        font-size: 18px;
+        font-family: "Montserrat";
+        color: rgb(51, 51, 51);
+        text-align: center;
+        background-color: white;
+        font-weight: 700;
+        margin-top: 0;
+        padding-top: 30px;
+        padding-bottom: 0;
+        margin: 0;
+    }
+    p {
+        font-size: 14px;
+        font-family: "Droid Serif";
+        color: rgb(115, 115, 115);
+        font-style: italic;
+        text-align: center;
+        background-color: white;
+        padding-bottom: 30px;
+    }
+    .port1 {
+        background-color: white;
+        width: 291px;
+        margin: 0 auto;
+        margin-bottom: 40px;
+    }
+}
