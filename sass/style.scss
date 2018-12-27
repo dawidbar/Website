@@ -109,3 +109,30 @@
         margin-bottom: 40px;
     }
 }
+.about {
+    @extend .services;
+    .line {
+        background-color: rgb(241, 241, 241);
+        width: 3px;
+        height: 94px;
+        margin: 0 auto;
+    }
+    .date { 
+        font-size: 18px;
+        font-family: "Montserrat";
+        color: rgb(34, 34, 34);
+        font-weight: bold;
+        text-transform: uppercase;
+        text-align: right;
+    }
+    .desc {
+        font-size: 14px;
+        font-family: "Roboto Slab";
+        color: rgb(119, 119, 119);
+        line-height: 1.2;
+        text-align: right;
+      }
+}
+
+
+
