@@ -9,3 +9,13 @@
 .jumbotron .overlay { background-color: rgba(0, 0, 0, 0.5); }
 
 .navbar .navbar-brand, .navbar .nav > li > a { font-size: 14px; font-family: "Montserrat"; color: white; text-transform: uppercase; }
+
+.services { box-sizing: border-box; text-align: center; }
+
+.services .title_services { font-size: 40px; font-family: "Montserrat"; color: #222222; font-weight: bold; text-transform: uppercase; text-align: center; padding-top: 50px; }
+
+.services .sub_title { font-size: 16px; font-family: "Droid Serif"; color: #777777; font-style: italic; text-align: center; padding-bottom: 60px; }
+
+.services i { color: #f0ad4e; }
+
+.services .circle { border-style: solid; border-width: 3px; border-color: #fed136; border-radius: 50%; background-color: white; width: 25%; margin: 0 auto; padding: 10px; }
