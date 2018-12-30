@@ -164,6 +164,7 @@
         cursor: pointer;
         font-size: 25px;
         transition: ease-in-out .3s;
+        margin-bottom: 30px;
         &:hover {
             i {
             transform: scale(1.10);
@@ -203,5 +204,17 @@
             background-color: red;
         }
     }
+    .desc {
+        font-size: 16px;
+        font-family: "Roboto Slab";
+        color: rgb(119, 119, 119);
+        text-align: center;
+        padding-bottom: 50px;
+    }
 }
-
+.logos {
+    text-align: center;
+    img {
+     margin: 50px 0;
+    }
+}

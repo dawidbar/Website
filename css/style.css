@@ -173,6 +173,7 @@
   cursor: pointer;
   font-size: 25px;
   transition: ease-in-out .3s;
+  margin-bottom: 30px;
 }
 
 .team .icon-btn:hover i {
@@ -210,6 +211,22 @@
 
 .team .pinterest:hover {
   background-color: red;
+}
+
+.team .desc, .team .about .desc-left, .about .team .desc-left {
+  font-size: 16px;
+  font-family: "Roboto Slab";
+  color: #777777;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.logos {
+  text-align: center;
+}
+
+.logos img {
+  margin: 50px 0;
 }
 
 /*# sourceMappingURL=style.css.map */
