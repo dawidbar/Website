@@ -124,7 +124,7 @@
   margin: 0 auto;
 }
 
-.about .date {
+.about .date, .about .date-left {
   font-size: 18px;
   font-family: "Montserrat";
   color: #222222;
@@ -133,12 +133,19 @@
   text-align: right;
 }
 
-.about .desc {
+.about .desc, .about .desc-left {
   font-size: 14px;
   font-family: "Roboto Slab";
   color: #777777;
-  line-height: 1.2;
   text-align: right;
+}
+
+.about .date-left {
+  text-align: left;
+}
+
+.about .desc-left {
+  text-align: left;
 }
 
 /*# sourceMappingURL=style.css.map */

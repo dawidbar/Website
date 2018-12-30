@@ -129,9 +129,16 @@
         font-size: 14px;
         font-family: "Roboto Slab";
         color: rgb(119, 119, 119);
-        line-height: 1.2;
         text-align: right;
-      }
+    }
+    .date-left {
+        @extend .date;
+        text-align: left;
+    }
+    .desc-left {
+        @extend .desc;
+        text-align: left;
+    }
 }
 
 
