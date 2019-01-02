@@ -29,7 +29,7 @@
   font-weight: bold;
   text-transform: uppercase;
   padding: 20px 25px;
-  margin-top: 20px;
+  margin-top: 70px;
 }
 
 .jumbotron .overlay {
@@ -117,9 +117,19 @@
   margin-bottom: 40px;
 }
 
+.about .row:before {
+  position: absolute;
+  left: 50%;
+  width: 3px;
+  height: 1100px;
+  margin-left: -1.5px;
+  content: '';
+  background-color: #e9ecef;
+}
+
 .about .line {
   background-color: #f1f1f1;
-  width: 3px;
+  width: 0;
   height: 94px;
   margin: 0 auto;
 }
@@ -275,6 +285,24 @@
   font-family: "Montserrat";
   color: #555555;
   padding-top: 10px;
+}
+
+@media (max-width: 1199.98px) {
+  .services .circle, .portfolio .circle, .team .circle, .footer .circle, .about .circle, .contact .circle {
+    width: 30%;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .services .circle, .portfolio .circle, .team .circle, .footer .circle, .about .circle, .contact .circle {
+    width: 13%;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .about .row:before {
+    display: none;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

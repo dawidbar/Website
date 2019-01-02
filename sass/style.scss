@@ -25,7 +25,7 @@
         font-weight: bold;
         text-transform: uppercase;
         padding: 20px 25px;
-        margin-top: 20px;
+        margin-top: 70px;
     }
     .overlay {
         background-color: rgba(0,0,0,0.5);
@@ -111,9 +111,20 @@
 }
 .about {
     @extend .services;
+    .row {
+        &:before {
+            position: absolute;
+            left: 50%;
+            width: 3px;
+            height: 1100px;
+            margin-left: -1.5px;
+            content: '';
+            background-color: #e9ecef;
+        }
+    }
     .line {
         background-color: rgb(241, 241, 241);
-        width: 3px;
+        width: 0;
         height: 94px;
         margin: 0 auto;
     }
@@ -258,5 +269,28 @@
         font-family: "Montserrat";
         color: rgb(85, 85, 85);
         padding-top: 10px; 
+    }
+}
+@media (max-width: 1199.98px) {
+    .services {
+        .circle {
+            width: 30%
+        }
+    }
+}
+@media (max-width: 991.98px) {
+    .services {
+        .circle {
+            width: 13%
+        }
+    }
+}
+@media (max-width: 767.98px) {
+    .about {
+        .row {
+            &:before {
+                display: none;
+            }
+        }
     }
 }
