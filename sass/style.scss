@@ -218,3 +218,34 @@
      margin: 50px 0;
     }
 }
+.contact {
+    @extend .services;
+    background-image: url(../../images/background.png);
+    background-size: cover;
+    height: 100%;
+    .title_services {
+        color: white;
+    }
+    .form-control {
+        padding: 20px;
+        margin-bottom: 25px;
+        height: auto;
+    }
+    .txt1 {
+        padding: 20px;
+        height: 237px;
+    }
+    .sub_title {
+        padding-bottom: 50px;
+    }
+    .btncont {
+        font-size: 18px;
+        font-family: "Montserrat";
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        text-transform: uppercase;
+        padding: 20px 25px;
+        margin-top: 20px;
+        margin-bottom: 50px;
+    }
+}
