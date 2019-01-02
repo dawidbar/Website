@@ -1,9 +1,12 @@
 .jumbotron {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../../images/jumbotron.png);
   background-size: cover;
+  background-position: center center;
   height: 600px;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -ms-flex-align: center;
+      align-items: center;
 }
 
 .jumbotron .welcome {
@@ -67,19 +70,30 @@
   padding-bottom: 100px;
 }
 
-.services i, .portfolio i, .team i, .footer i, .about i, .contact i {
-  color: #f0ad4e;
+.services .icon, .portfolio .icon, .team .icon, .footer .icon, .about .icon, .contact .icon {
+  color: white;
+  line-height: 100px;
+}
+
+.services p, .portfolio p, .team p, .footer p, .about p, .contact p {
+  padding-bottom: 50px;
 }
 
 .services .circle, .portfolio .circle, .team .circle, .footer .circle, .about .circle, .contact .circle {
-  border-style: solid;
-  border-width: 3px;
-  border-color: #fed136;
+  width: 100px;
+  height: 100px;
+  border: 0;
+  background-color: #f0ad4e;
   border-radius: 50%;
-  background-color: white;
-  width: 25%;
-  margin: 0 auto;
-  padding: 10px;
+  cursor: pointer;
+  font-size: 15px;
+  transition: ease-in-out .3s;
+  margin: auto;
+}
+
+.services .circle:hover i, .portfolio .circle:hover i, .team .circle:hover i, .footer .circle:hover i, .about .circle:hover i, .contact .circle:hover i {
+  transform: scale(1.1);
+  color: white;
 }
 
 .portfolio, .team, .footer {
@@ -287,22 +301,9 @@
   padding-top: 10px;
 }
 
-@media (max-width: 1199.98px) {
-  .services .circle, .portfolio .circle, .team .circle, .footer .circle, .about .circle, .contact .circle {
-    width: 30%;
-  }
-}
-
-@media (max-width: 991.98px) {
-  .services .circle, .portfolio .circle, .team .circle, .footer .circle, .about .circle, .contact .circle {
-    width: 13%;
-  }
-}
-
 @media (max-width: 767.98px) {
   .about .row:before {
     display: none;
   }
 }
-
 /*# sourceMappingURL=style.css.map */
