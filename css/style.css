@@ -43,12 +43,12 @@
   text-transform: uppercase;
 }
 
-.services, .portfolio, .team, .about, .contact {
+.services, .portfolio, .team, .footer, .about, .contact {
   box-sizing: border-box;
   text-align: center;
 }
 
-.services .title_services, .portfolio .title_services, .team .title_services, .about .title_services, .contact .title_services {
+.services .title_services, .portfolio .title_services, .team .title_services, .footer .title_services, .about .title_services, .contact .title_services {
   font-size: 40px;
   font-family: "Montserrat";
   color: #222222;
@@ -58,7 +58,7 @@
   padding-top: 50px;
 }
 
-.services .sub_title, .portfolio .sub_title, .team .sub_title, .about .sub_title, .contact .sub_title {
+.services .sub_title, .portfolio .sub_title, .team .sub_title, .footer .sub_title, .about .sub_title, .contact .sub_title {
   font-size: 16px;
   font-family: "Droid Serif";
   color: #777777;
@@ -67,11 +67,11 @@
   padding-bottom: 100px;
 }
 
-.services i, .portfolio i, .team i, .about i, .contact i {
+.services i, .portfolio i, .team i, .footer i, .about i, .contact i {
   color: #f0ad4e;
 }
 
-.services .circle, .portfolio .circle, .team .circle, .about .circle, .contact .circle {
+.services .circle, .portfolio .circle, .team .circle, .footer .circle, .about .circle, .contact .circle {
   border-style: solid;
   border-width: 3px;
   border-color: #fed136;
@@ -82,12 +82,12 @@
   padding: 10px;
 }
 
-.portfolio, .team {
+.portfolio, .team, .footer {
   background-color: #F7F7F7;
   margin-top: 100px;
 }
 
-.portfolio h2, .team h2 {
+.portfolio h2, .team h2, .footer h2 {
   font-size: 18px;
   font-family: "Montserrat";
   color: #333333;
@@ -100,7 +100,7 @@
   margin: 0;
 }
 
-.portfolio p, .team p {
+.portfolio p, .team p, .footer p {
   font-size: 14px;
   font-family: "Droid Serif";
   color: #737373;
@@ -110,7 +110,7 @@
   padding-bottom: 30px;
 }
 
-.portfolio .port1, .team .port1 {
+.portfolio .port1, .team .port1, .footer .port1 {
   background-color: white;
   width: 291px;
   margin: 0 auto;
@@ -148,22 +148,22 @@
   text-align: left;
 }
 
-.team .teampic {
+.team .teampic, .footer .teampic {
   border-radius: 50%;
   max-height: 225px;
   max-width: 225px;
 }
 
-.team h2 {
+.team h2, .footer h2 {
   background-color: #F7F7F7;
 }
 
-.team p {
+.team p, .footer p {
   background-color: #F7F7F7;
   padding-bottom: 0;
 }
 
-.team .icon-btn {
+.team .icon-btn, .footer .icon-btn {
   width: 40px;
   height: 40px;
   border: 0;
@@ -176,44 +176,44 @@
   margin-bottom: 30px;
 }
 
-.team .icon-btn:hover i {
+.team .icon-btn:hover i, .footer .icon-btn:hover i {
   transform: scale(1.1);
   color: white;
 }
 
-.team .twitter i {
+.team .twitter i, .footer .twitter i {
   color: #4099FF;
 }
 
-.team .twitter:hover {
+.team .twitter:hover, .footer .twitter:hover {
   background-color: #4099FF;
 }
 
-.team .facebook i {
+.team .facebook i, .footer .facebook i {
   color: #3B5998;
 }
 
-.team .facebook:hover {
+.team .facebook:hover, .footer .facebook:hover {
   background-color: #3B5998;
 }
 
-.team .google-plus i {
+.team .google-plus i, .footer .google-plus i {
   color: #DB5A3C;
 }
 
-.team .google-plus:hover {
+.team .google-plus:hover, .footer .google-plus:hover {
   background-color: #DB5A3C;
 }
 
-.team .pinterest i {
+.team .pinterest i, .footer .pinterest i {
   color: red;
 }
 
-.team .pinterest:hover {
+.team .pinterest:hover, .footer .pinterest:hover {
   background-color: red;
 }
 
-.team .desc, .team .about .desc-left, .about .team .desc-left {
+.team .desc, .footer .desc, .team .about .desc-left, .about .team .desc-left, .footer .about .desc-left, .about .footer .desc-left {
   font-size: 16px;
   font-family: "Roboto Slab";
   color: #777777;
@@ -263,6 +263,18 @@
   padding: 20px 25px;
   margin-top: 20px;
   margin-bottom: 50px;
+}
+
+.footer {
+  margin-top: 0;
+  padding-top: 30px;
+}
+
+.footer .copyright {
+  font-size: 18px;
+  font-family: "Montserrat";
+  color: #555555;
+  padding-top: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */

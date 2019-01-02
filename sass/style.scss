@@ -249,3 +249,14 @@
         margin-bottom: 50px;
     }
 }
+.footer {
+    @extend .team;
+    margin-top: 0;
+    padding-top: 30px;
+    .copyright {
+        font-size: 18px;
+        font-family: "Montserrat";
+        color: rgb(85, 85, 85);
+        padding-top: 10px; 
+    }
+}
