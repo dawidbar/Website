@@ -1,309 +1,97 @@
-.jumbotron {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../../images/jumbotron.png);
-  background-size: cover;
-  background-position: center center;
-  height: 600px;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-align: center;
-      align-items: center;
-}
+.jumbotron { background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/jumbotron.png); background-size: cover; background-position: center center; height: 600px; display: flex; align-items: center; }
 
-.jumbotron .welcome {
-  font-size: 40px;
-  font-family: "Droid Serif";
-  color: white;
-  text-align: center;
-}
+.jumbotron .welcome { font-size: 40px; font-family: "Droid Serif"; color: white; text-align: center; }
 
-.jumbotron .seey {
-  font-size: 75px;
-  font-family: "Montserrat";
-  color: white;
-  font-weight: bold;
-  text-transform: uppercase;
-  text-align: center;
-}
+.jumbotron .seey { font-size: 75px; font-family: "Montserrat"; color: white; font-weight: bold; text-transform: uppercase; text-align: center; }
 
-.jumbotron .btnjumb {
-  font-size: 18px;
-  font-family: "Montserrat";
-  color: white;
-  font-weight: bold;
-  text-transform: uppercase;
-  padding: 20px 25px;
-  margin-top: 70px;
-}
+.jumbotron .btnjumb { font-size: 18px; font-family: "Montserrat"; color: white; font-weight: bold; text-transform: uppercase; padding: 20px 25px; margin-top: 70px; }
 
-.jumbotron .overlay {
-  background-color: rgba(0, 0, 0, 0.5);
-}
+.jumbotron .overlay { background-color: rgba(0, 0, 0, 0.5); }
 
-.navbar .navbar-brand, .navbar .nav > li > a {
-  font-size: 14px;
-  font-family: "Montserrat";
-  color: white;
-  text-transform: uppercase;
-}
+.navbar .navbar-brand, .navbar .nav > li > a { font-size: 14px; font-family: "Montserrat"; color: white; text-transform: uppercase; }
 
-.services, .portfolio, .team, .footer, .about, .contact {
-  box-sizing: border-box;
-  text-align: center;
-}
+.services, .portfolio, .team, .footer, .about, .contact { box-sizing: border-box; text-align: center; }
 
-.services .title_services, .portfolio .title_services, .team .title_services, .footer .title_services, .about .title_services, .contact .title_services {
-  font-size: 40px;
-  font-family: "Montserrat";
-  color: #222222;
-  font-weight: bold;
-  text-transform: uppercase;
-  text-align: center;
-  padding-top: 50px;
-}
+.services .title_services, .portfolio .title_services, .team .title_services, .footer .title_services, .about .title_services, .contact .title_services { font-size: 40px; font-family: "Montserrat"; color: #222222; font-weight: bold; text-transform: uppercase; text-align: center; padding-top: 50px; }
 
-.services .sub_title, .portfolio .sub_title, .team .sub_title, .footer .sub_title, .about .sub_title, .contact .sub_title {
-  font-size: 16px;
-  font-family: "Droid Serif";
-  color: #777777;
-  font-style: italic;
-  text-align: center;
-  padding-bottom: 100px;
-}
+.services .sub_title, .portfolio .sub_title, .team .sub_title, .footer .sub_title, .about .sub_title, .contact .sub_title { font-size: 16px; font-family: "Droid Serif"; color: #777777; font-style: italic; text-align: center; padding-bottom: 100px; }
 
-.services .icon, .portfolio .icon, .team .icon, .footer .icon, .about .icon, .contact .icon {
-  color: white;
-  line-height: 100px;
-}
+.services .icon, .portfolio .icon, .team .icon, .footer .icon, .about .icon, .contact .icon { color: white; line-height: 100px; }
 
-.services p, .portfolio p, .team p, .footer p, .about p, .contact p {
-  padding-bottom: 50px;
-}
+.services p, .portfolio p, .team p, .footer p, .about p, .contact p { padding-bottom: 50px; }
 
-.services .circle, .portfolio .circle, .team .circle, .footer .circle, .about .circle, .contact .circle {
-  width: 100px;
-  height: 100px;
-  border: 0;
-  background-color: #f0ad4e;
-  border-radius: 50%;
-  cursor: pointer;
-  font-size: 15px;
-  transition: ease-in-out .3s;
-  margin: auto;
-}
+.services .circle, .portfolio .circle, .team .circle, .footer .circle, .about .circle, .contact .circle { width: 100px; height: 100px; border: 0; background-color: #f0ad4e; border-radius: 50%; cursor: pointer; font-size: 15px; transition: ease-in-out .3s; margin: auto; }
 
-.services .circle:hover i, .portfolio .circle:hover i, .team .circle:hover i, .footer .circle:hover i, .about .circle:hover i, .contact .circle:hover i {
-  transform: scale(1.1);
-  color: white;
-}
+.services .circle:hover i, .portfolio .circle:hover i, .team .circle:hover i, .footer .circle:hover i, .about .circle:hover i, .contact .circle:hover i { transform: scale(1.1); color: white; }
 
-.portfolio, .team, .footer {
-  background-color: #F7F7F7;
-  margin-top: 100px;
-}
+.portfolio, .team, .footer { background-color: #F7F7F7; margin-top: 100px; }
 
-.portfolio h2, .team h2, .footer h2 {
-  font-size: 18px;
-  font-family: "Montserrat";
-  color: #333333;
-  text-align: center;
-  background-color: white;
-  font-weight: 700;
-  margin-top: 0;
-  padding-top: 30px;
-  padding-bottom: 0;
-  margin: 0;
-}
+.portfolio h2, .team h2, .footer h2 { font-size: 18px; font-family: "Montserrat"; color: #333333; text-align: center; background-color: white; font-weight: 700; margin-top: 0; padding-top: 30px; padding-bottom: 0; margin: 0; }
 
-.portfolio p, .team p, .footer p {
-  font-size: 14px;
-  font-family: "Droid Serif";
-  color: #737373;
-  font-style: italic;
-  text-align: center;
-  background-color: white;
-  padding-bottom: 30px;
-}
+.portfolio p, .team p, .footer p { font-size: 14px; font-family: "Droid Serif"; color: #737373; font-style: italic; text-align: center; background-color: white; padding-bottom: 30px; }
 
-.portfolio .port1, .team .port1, .footer .port1 {
-  background-color: white;
-  width: 291px;
-  margin: 0 auto;
-  margin-bottom: 40px;
-}
+.portfolio .port1, .team .port1, .footer .port1 { background-color: white; width: 291px; margin: 0 auto; margin-bottom: 40px; }
 
-.about .row:before {
-  position: absolute;
-  left: 50%;
-  width: 3px;
-  height: 1100px;
-  margin-left: -1.5px;
-  content: '';
-  background-color: #e9ecef;
-}
+.about .row:before { position: absolute; left: 50%; width: 3px; height: 1250px; margin-left: -1.5px; content: ''; background-color: #e9ecef; }
 
-.about .line {
-  background-color: #f1f1f1;
-  width: 0;
-  height: 94px;
-  margin: 0 auto;
-}
+.about .line { background-color: #f1f1f1; width: 0; height: 94px; margin: 0 auto; }
 
-.about .date, .about .date-left {
-  font-size: 18px;
-  font-family: "Montserrat";
-  color: #222222;
-  font-weight: bold;
-  text-transform: uppercase;
-  text-align: right;
-}
+.about .date, .about .date-left { font-size: 18px; font-family: "Montserrat"; color: #222222; font-weight: bold; text-transform: uppercase; text-align: right; }
 
-.about .desc, .about .desc-left {
-  font-size: 14px;
-  font-family: "Roboto Slab";
-  color: #777777;
-  text-align: right;
-}
+.about .desc, .about .desc-left { font-size: 14px; font-family: "Roboto Slab"; color: #777777; text-align: right; }
 
-.about .date-left {
-  text-align: left;
-}
+.about .date-left { text-align: left; }
 
-.about .desc-left {
-  text-align: left;
-}
+.about .desc-left { text-align: left; }
 
-.team .teampic, .footer .teampic {
-  border-radius: 50%;
-  max-height: 225px;
-  max-width: 225px;
-}
+.team .teampic, .footer .teampic { border-radius: 50%; max-height: 225px; max-width: 225px; }
 
-.team h2, .footer h2 {
-  background-color: #F7F7F7;
-}
+.team h2, .footer h2 { background-color: #F7F7F7; }
 
-.team p, .footer p {
-  background-color: #F7F7F7;
-  padding-bottom: 0;
-}
+.team p, .footer p { background-color: #F7F7F7; padding-bottom: 0; }
 
-.team .icon-btn, .footer .icon-btn {
-  width: 40px;
-  height: 40px;
-  border: 0;
-  background-color: #fff;
-  border-radius: 50%;
-  margin: 5px;
-  cursor: pointer;
-  font-size: 25px;
-  transition: ease-in-out .3s;
-  margin-bottom: 30px;
-}
+.team .icon-btn, .footer .icon-btn { width: 40px; height: 40px; border: 0; background-color: #fff; border-radius: 50%; margin: 5px; cursor: pointer; font-size: 25px; transition: ease-in-out .3s; margin-bottom: 30px; }
 
-.team .icon-btn:hover i, .footer .icon-btn:hover i {
-  transform: scale(1.1);
-  color: white;
-}
+.team .icon-btn:hover i, .footer .icon-btn:hover i { transform: scale(1.1); color: white; }
 
-.team .twitter i, .footer .twitter i {
-  color: #4099FF;
-}
+.team .twitter i, .footer .twitter i { color: #4099FF; }
 
-.team .twitter:hover, .footer .twitter:hover {
-  background-color: #4099FF;
-}
+.team .twitter:hover, .footer .twitter:hover { background-color: #4099FF; }
 
-.team .facebook i, .footer .facebook i {
-  color: #3B5998;
-}
+.team .facebook i, .footer .facebook i { color: #3B5998; }
 
-.team .facebook:hover, .footer .facebook:hover {
-  background-color: #3B5998;
-}
+.team .facebook:hover, .footer .facebook:hover { background-color: #3B5998; }
 
-.team .google-plus i, .footer .google-plus i {
-  color: #DB5A3C;
-}
+.team .google-plus i, .footer .google-plus i { color: #DB5A3C; }
 
-.team .google-plus:hover, .footer .google-plus:hover {
-  background-color: #DB5A3C;
-}
+.team .google-plus:hover, .footer .google-plus:hover { background-color: #DB5A3C; }
 
-.team .pinterest i, .footer .pinterest i {
-  color: red;
-}
+.team .pinterest i, .footer .pinterest i { color: red; }
 
-.team .pinterest:hover, .footer .pinterest:hover {
-  background-color: red;
-}
+.team .pinterest:hover, .footer .pinterest:hover { background-color: red; }
 
-.team .desc, .footer .desc, .team .about .desc-left, .about .team .desc-left, .footer .about .desc-left, .about .footer .desc-left {
-  font-size: 16px;
-  font-family: "Roboto Slab";
-  color: #777777;
-  text-align: center;
-  padding-bottom: 50px;
-}
+.team .desc, .footer .desc, .team .about .desc-left, .about .team .desc-left, .footer .about .desc-left, .about .footer .desc-left { font-size: 16px; font-family: "Roboto Slab"; color: #777777; text-align: center; padding-bottom: 50px; }
 
-.logos {
-  text-align: center;
-}
+.logos { text-align: center; }
 
-.logos img {
-  margin: 50px 0;
-}
+.logos img { margin: 50px 0; }
 
-.contact {
-  background-image: url(../../images/background.png);
-  background-size: cover;
-  height: 100%;
-}
+.contact { background-image: url(../../images/background.png); background-size: cover; height: 100%; }
 
-.contact .title_services {
-  color: white;
-}
+.contact .title_services { color: white; }
 
-.contact .form-control {
-  padding: 20px;
-  margin-bottom: 25px;
-  height: auto;
-}
+.contact .form-control { padding: 20px; margin-bottom: 25px; height: auto; }
 
-.contact .txt1 {
-  padding: 20px;
-  height: 237px;
-}
+.contact .txt1 { padding: 20px; height: 237px; }
 
-.contact .sub_title {
-  padding-bottom: 50px;
-}
+.contact .sub_title { padding-bottom: 50px; }
 
-.contact .btncont {
-  font-size: 18px;
-  font-family: "Montserrat";
-  color: white;
-  font-weight: bold;
-  text-transform: uppercase;
-  padding: 20px 25px;
-  margin-top: 20px;
-  margin-bottom: 50px;
-}
+.contact .btncont { font-size: 18px; font-family: "Montserrat"; color: white; font-weight: bold; text-transform: uppercase; padding: 20px 25px; margin-top: 20px; margin-bottom: 50px; }
 
-.footer {
-  margin-top: 0;
-  padding-top: 30px;
-}
+.footer { margin-top: 0; padding-top: 30px; }
 
-.footer .copyright {
-  font-size: 18px;
-  font-family: "Montserrat";
-  color: #555555;
-  padding-top: 10px;
-}
+.footer .copyright { font-size: 18px; font-family: "Montserrat"; color: #555555; padding-top: 10px; }
 
-@media (max-width: 767.98px) {
-  .about .row:before {
-    display: none;
-  }
-}
-/*# sourceMappingURL=style.css.map */
+@media (max-width: 992px) { .about .row:before { height: 1300px; } }
+
+@media (max-width: 767.98px) { .about .row:before { display: none; } }
