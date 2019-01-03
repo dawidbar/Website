@@ -1,4 +1,4 @@
-.jumbotron { background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/jumbotron.png); background-size: cover; background-position: center center; height: 600px; display: -ms-flexbox; display: flex; -ms-flex-align: center; align-items: center; }
+.jumbotron { background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/jumbotron.png); background-size: cover; background-position: center center; height: 600px; display: flex; align-items: center; }
 
 .jumbotron .welcome { font-size: 40px; font-family: "Droid Serif"; color: white; text-align: center; }
 
@@ -76,7 +76,7 @@
 
 .logos img { margin: 50px 0; }
 
-.contact { background-image: url(../images/background.png); background-size: cover; height: 100%; }
+.contact { background-image: url(../images/Background.png); background-size: cover; height: 100%; }
 
 .contact .title_services { color: white; }
 
