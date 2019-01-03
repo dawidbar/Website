@@ -7,6 +7,11 @@
             "type": "npm",
             "script": "build:sass",
             "problemMatcher": []
+        },
+        {
+            "type": "npm",
+            "script": "watch",
+            "problemMatcher": []
         }
     ]
 }
