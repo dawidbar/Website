@@ -241,7 +241,7 @@
 }
 .contact {
     @extend .services;
-    background-image: url(../images/Background.png);
+    background-image: url(../images/background.png);
     background-size: cover;
     height: 100%;
     .title_services {
@@ -306,6 +306,13 @@
         }
         .seey {
             font-size: 50px;
+        }
+    }
+    .nav {
+        li {
+            a {
+                background-color: #4099FF;
+            }
         }
     }
 }
